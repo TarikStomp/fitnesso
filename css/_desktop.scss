@@ -1,0 +1,218 @@
+%flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+%roboto {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.box {
+	max-width: 1440px;
+	margin: 0 auto;
+
+
+	.header {
+		padding: 7px 0 7px;
+		max-height: 60px;
+
+		&__inner {
+			width: 1368px;
+			height: 46px;
+			@extend %flex;
+			align-items: center;
+
+		}
+
+		&__inner-logo {
+			width: 94px;
+			height: 20px;
+			background-image: url(../images/logo.svg);
+		}
+
+		&__inner-nav {
+			width: 488px;
+		}
+
+		&__inner-nav-list {
+			@extend %flex;
+			align-items: center;
+
+		}
+
+		&__inner-nav-item {
+			height: 23px;
+			font-size: 14px;
+			line-height: 22px;
+			letter-spacing: 0.5px;
+
+		}
+
+		&__inner-nav-btn {
+			width: 173px;
+			height: 46px;
+			background-color: $b;
+			border-radius: 6px;
+			position: relative;
+
+			span {
+				@extend %roboto;
+				font-size: 14px;
+				line-height: 22px;
+				text-align: center;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				color: $w;
+				position: absolute;
+				top: 12px;
+				left: 40px;
+			}
+
+			.arrow {
+				position: absolute;
+				width: 12px;
+				height: 16px;
+				top: 13px;
+				left: 20px;
+				background-image: url(../images/arrow.svg);
+			}
+		}
+
+		&__inner-nav-basket {
+			width: 17px;
+			height: 17px;
+			background-image: url(../images/basket.svg);
+		}
+	}
+
+	.sandra {
+		height: 995px;
+		background-color: $bgs;
+		padding: 79px 0 150px;
+
+		&__inner {
+			width: 755px;
+			height: 769px;
+			position: relative;
+			padding-top: 66px;
+			@extend %flex
+		}
+
+		&__inner-pics {
+			width: 739px;
+			margin-right: 80px;
+		}
+
+		&__inner-name {
+			position: absolute;
+			top: 0;
+			left: 120px;
+			width: 419px;
+			height: 69px;
+			background-image: url(../images/Sandra\ Lyons.svg);
+			background-size: cover;
+		}
+
+		&__inner-pic {
+			border-radius: 5px;
+			width: 659px;
+			height: 700px;
+			background-image: url(../images/sandra\ img.png);
+		}
+
+		.inner {
+
+			&__content {
+				margin-top: 63px;
+			}
+
+			&__content-name {
+				font-size: 14px;
+				line-height: 22px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				color: $b;
+				margin-bottom: 32px;
+			}
+
+			&__content-title {
+				width: 552px;
+				height: 238px;
+				@extend %roboto;
+				font-size: 72px;
+				line-height: 79px;
+				color: $b;
+				margin-bottom: 31px;
+			}
+
+			&__content-text {
+				width: 496px;
+				height: 108px;
+				font-size: 20px;
+				line-height: 36px;
+				color: $b;
+				margin-bottom: 25px;
+			}
+
+			&__content-btn {
+				width: 214px;
+				height: 62px;
+				background-color: $b;
+				border-radius: 6px;
+				position: relative;
+
+				span {
+
+					@extend %roboto;
+					font-size: 14px;
+					line-height: 22px;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					color: $w;
+					position: absolute;
+					top: 20px;
+					left: 40px;
+				}
+
+				.arrow {
+					position: absolute;
+					width: 12px;
+					height: 16px;
+					top: 21px;
+					left: 16px;
+					background-image: url(../images/arrow.svg);
+				}
+			}
+		}
+
+
+
+	}
+
+	.feedback {
+		height: 237px;
+		background-color: $b;
+
+		.nav {
+			height: 100%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.nav-item {
+
+			.item-link {
+				font-size: 14px;
+				line-height: 22px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				color: $lt;
+			}
+
+		}
+	}
+
+
+}

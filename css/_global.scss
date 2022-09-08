@@ -1,0 +1,34 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    background-color: $w;
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1368px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $b;
+}
+
+li {
+    list-style: none;
+}

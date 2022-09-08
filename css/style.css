@@ -1,0 +1,204 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background-color: #FFFFFF;
+  font-family: "Red Hat Display";
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1368px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #081158;
+}
+
+li {
+  list-style: none;
+}
+
+.box .sandra__inner, .box .header__inner-nav-list, .box .header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .sandra .inner__content-btn span, .box .sandra .inner__content-title, .box .header__inner-nav-btn span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.box {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.box .header {
+  padding: 7px 0 7px;
+  max-height: 60px;
+}
+.box .header__inner {
+  width: 1368px;
+  height: 46px;
+  align-items: center;
+}
+.box .header__inner-logo {
+  width: 94px;
+  height: 20px;
+  background-image: url(../images/logo.svg);
+}
+.box .header__inner-nav {
+  width: 488px;
+}
+.box .header__inner-nav-list {
+  align-items: center;
+}
+.box .header__inner-nav-item {
+  height: 23px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+.box .header__inner-nav-btn {
+  width: 173px;
+  height: 46px;
+  background-color: #081158;
+  border-radius: 6px;
+  position: relative;
+}
+.box .header__inner-nav-btn span {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  top: 12px;
+  left: 40px;
+}
+.box .header__inner-nav-btn .arrow {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 13px;
+  left: 20px;
+  background-image: url(../images/arrow.svg);
+}
+.box .header__inner-nav-basket {
+  width: 17px;
+  height: 17px;
+  background-image: url(../images/basket.svg);
+}
+.box .sandra {
+  height: 995px;
+  background-color: #EEF0F4;
+  padding: 79px 0 150px;
+}
+.box .sandra__inner {
+  width: 755px;
+  height: 769px;
+  position: relative;
+  padding-top: 66px;
+}
+.box .sandra__inner-pics {
+  width: 739px;
+  margin-right: 80px;
+}
+.box .sandra__inner-name {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  width: 419px;
+  height: 69px;
+  background-image: url(../images/Sandra\ Lyons.svg);
+  background-size: cover;
+}
+.box .sandra__inner-pic {
+  border-radius: 5px;
+  width: 659px;
+  height: 700px;
+  background-image: url(../images/sandra\ img.png);
+}
+.box .sandra .inner__content {
+  margin-top: 63px;
+}
+.box .sandra .inner__content-name {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #081158;
+  margin-bottom: 32px;
+}
+.box .sandra .inner__content-title {
+  width: 552px;
+  height: 238px;
+  font-size: 72px;
+  line-height: 79px;
+  color: #081158;
+  margin-bottom: 31px;
+}
+.box .sandra .inner__content-text {
+  width: 496px;
+  height: 108px;
+  font-size: 20px;
+  line-height: 36px;
+  color: #081158;
+  margin-bottom: 25px;
+}
+.box .sandra .inner__content-btn {
+  width: 214px;
+  height: 62px;
+  background-color: #081158;
+  border-radius: 6px;
+  position: relative;
+}
+.box .sandra .inner__content-btn span {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.box .sandra .inner__content-btn .arrow {
+  position: absolute;
+  width: 12px;
+  height: 16px;
+  top: 21px;
+  left: 16px;
+  background-image: url(../images/arrow.svg);
+}
+.box .feedback {
+  height: 237px;
+  background-color: #081158;
+}
+.box .feedback .nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box .feedback .nav-item .item-link {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DFDFDF;
+}/*# sourceMappingURL=style.css.map */
